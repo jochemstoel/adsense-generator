@@ -1,0 +1,55 @@
+body {
+    font-family: arial
+}
+td {
+    vertial-align: top
+}
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: #000000;
+    font-weight: normal;
+}
+a:hover {
+    text-decoration: underline;
+    color: #FF0000;
+}
+h1 {
+    font-size: 16px
+}
+h3 {
+    font-size: 14px
+}
+label {
+    font-size: 12px
+}
+tr.paddings {
+    padding-bottom: 3px;
+}
+.colors {
+    position: absolute;
+    display: none;
+    left: 150px;
+    top: 150px;
+    width: 290px;
+    height: 137px;
+    background: #666666;
+}
+.colorhover1 {
+    width: 20px;
+    border: 1px solid blue;
+    cursor: pointer;
+    height: 20px;
+}
+td.hw {
+    height: 25px;
+    width: 20px;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid blue;
+}
+td.bolder1 {
+    font-size: 58px;
+    font-weight: bold
+}

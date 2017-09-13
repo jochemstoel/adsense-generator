@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+	<link rel="stylesheet" type="text/css" href="app.css">
+	<script src="app.js"></script>
+	<title>Google Adsense Code Generator - It's very easy</title>
+	<link rel="stylesheet" type="text/css" href="generator.css">
+	<script src="generator.js"></script>
+</head>
+
+<body onfocus="h(); codechanger()" onload="palletechanger('Default Google pallete');g('ad_type1').click();g('public').click(); codechanger();">
+	<div id="wm-ipp" lang="en" style="display:none;direction:ltr;">
+		<div style="position:fixed;left:0;top:0;width:100%!important">
+			<div id="wm-ipp-inside">
+			</div>
+		</div>
+	</div>
+
+	<form action="#" id="form" method="post" name="form" onsubmit="rememberinput('client', 'hidden6', 'notebook')">
+		<div>
+			<table cellpadding="5">
+				<tr valign="top">
+					<td colspan="2">
+						<h1>Google Adsense Generator</h1>
+						This simple but effective code generator for Adsense provides a handy tool to instantly greate some coding for your advertising campaign. No more log-ins or clumpsy menus, but instant code-generation for convenient Ad-generation. Happy Ad(d))ing!
+					</td>
+
+					<td align="center" rowspan="2">
+						<h3>Your Adsense Code (copy &amp; paste)</h3>
+
+						<textarea cols="60" id="mycode" onclick="this.select()" rows="25"></textarea><br>
+						<br>
+						<br>
+					</td>
+				</tr>
+
+
+				<tr valign="top">
+					<td>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td valign="top">
+									<h3>Ad Type</h3>
+								</td>
+							</tr>
+
+
+							<tr>
+								<td><input checked="checked" id="ad_type1" name="adtype" onclick="whichvisible();codechanger()" type="radio" value="adunit"><label for="ad_type1"><b>Ad unit</b></label> <select name="adtypeselect" onchange="whichvisible();codechanger()" onfocus="g('ad_type1').click()">
+									<option selected value="text_image">
+										Text and image ads (default)
+									</option>
+
+									<option value="text">
+										Text ads only
+									</option>
+
+									<option value="image">
+										Image ads only
+									</option>
+								</select><br>
+								<input id="ad_type2" name="adtype" onclick="whichvisible();codechanger()" type="radio" value="linkunit"><label for="ad_type2"><b>Link unit</b></label></td>
+							</tr>
+
+
+							<tr>
+								<td>
+									<h3>Format</h3>
+									<span id="format0" style="visibility: visible; position: absolute"><select name="size_0" onchange="codechanger()">
+										<optgroup label="Horizontal">
+											<option value="728x90">
+												728x90 Leaderboard
+											</option>
+
+											<option value="468x60">
+												468x60 Banner
+											</option>
+
+											<option value="234x60">
+												234x60 Half Banner
+											</option>
+										</optgroup>
+
+										<optgroup label="Vertical">
+											<option value="120x600">
+												120x600 Skyscraper
+											</option>
+
+											<option value="160x600">
+												160x600 Wide Skyscraper
+											</option>
+
+											<option value="120x240">
+												120x240 Vertical Banner
+											</option>
+										</optgroup>
+
+										<optgroup label="Square">
+											<option value="336x280">
+												336x280 Large Rectangle
+											</option>
+
+											<option value="300x250">
+												300x250 Medium Rectangle
+											</option>
+
+											<option value="250x250">
+												250x250 Square
+											</option>
+
+											<option value="200x200">
+												200x200 Small Square
+											</option>
+
+											<option value="180x150">
+												180x150 Small Rectangle
+											</option>
+
+											<option value="125x125">
+												125x125 Button
+											</option>
+										</optgroup>
+									</select></span><span id="format1" style="visibility: hidden; position: absolute"><select name="size_1" onchange="codechanger()">
+										<optgroup label="Horizontal">
+											<option value="728x90">
+												728x90 Leaderboard
+											</option>
+
+											<option value="468x60">
+												468x60 Banner
+											</option>
+										</optgroup>
+
+										<optgroup label="Vertical">
+											<option value="120x600">
+												120x600 Skyscraper
+											</option>
+
+											<option value="160x600">
+												160x600 Wide Skyscraper
+											</option>
+										</optgroup>
+
+										<optgroup label="Square">
+											<option value="336x280">
+												336x280 Large Rectangle
+											</option>
+
+											<option value="300x250">
+												300x250 Medium Rectangle
+											</option>
+
+											<option value="250x250">
+												250x250 Square
+											</option>
+
+											<option value="200x200">
+												200x200 Small Square
+											</option>
+										</optgroup>
+									</select></span><span id="format2" style="visibility: hidden; position: absolute"><select name="size_2" onchange="codechanger()">
+										<optgroup label="Horizontal">
+											<option value="728x15">
+												728x15
+											</option>
+
+											<option value="468x15">
+												468x15
+											</option>
+										</optgroup>
+
+										<optgroup label="Square">
+											<option value="200x90">
+												200x90
+											</option>
+
+											<option value="180x90">
+												180x90
+											</option>
+
+											<option value="160x90">
+												160x90
+											</option>
+
+											<option value="120x90">
+												120x90
+											</option>
+										</optgroup>
+									</select><br>
+									<input checked id="perunit1" name="per_unit" type="radio" value="4"> <label for="perunit1">4 ads per unit</label><br>
+									<input id="perunit2" name="per_unit" type="radio" value="5"> <label for="perunit2">5 ads per unit</label></span>
+								</td>
+							</tr>
+
+
+							<tr>
+								<td>
+									<br>
+									<br>
+
+
+									<h3>Color</h3>
+
+
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tr class="paddings">
+											<td align="right"><label for="Border">Border&nbsp;&nbsp;&nbsp;#</label>
+											</td>
+
+											<td><input id="Border" maxlength="6" name="codec0" onchange="truecoloronchange(this.value);" onfocus="h();idchanger('color0')" onkeyup="truecolorkeyup(this.value);" size="6" type="text" value=""><input id="hidden0" type="hidden">&nbsp;</td>
+
+											<td>
+												<div class="colorhover1" id="color0" onclick="changepos(203,399);s();idchanger('color0')" onmouseout="this.style.borderColor='blue'" onmouseover="this.style.borderColor='red'">
+												</div>
+											</td>
+										</tr>
+
+
+										<tr class="paddings">
+											<td align="right"><label for="Title">Title&nbsp;&nbsp;&nbsp;#</label>
+											</td>
+
+											<td><input id="Title" maxlength="6" name="codec1" onchange="truecoloronchange(this.value);" onfocus="h();idchanger('color1')" onkeyup="truecolorkeyup(this.value);" size="6" type="text" value=""><input id="hidden1" type="hidden">&nbsp;</td>
+
+											<td>
+												<div class="colorhover1" id="color1" onclick="changepos(203,421);s();idchanger('color1')" onmouseout="this.style.borderColor='blue'" onmouseover="this.style.borderColor='red'">
+												</div>
+											</td>
+										</tr>
+
+
+										<tr class="paddings">
+											<td align="right"><label for="Background">Background&nbsp;&nbsp;&nbsp;#</label>
+											</td>
+
+											<td><input id="Background" maxlength="6" name="codec2" onchange="truecoloronchange(this.value);" onfocus="h();idchanger('color2')" onkeyup="truecolorkeyup(this.value);" size="6" type="text" value=""><input id="hidden2" type="hidden">&nbsp;</td>
+
+											<td>
+												<div class="colorhover1" id="color2" onclick="changepos(203,443);s();idchanger('color2')" onmouseout="this.style.borderColor='blue'" onmouseover="this.style.borderColor='red'">
+												</div>
+											</td>
+										</tr>
+
+
+										<tr class="paddings">
+											<td align="right"><label for="Text">Text&nbsp;&nbsp;&nbsp;#</label>
+											</td>
+
+											<td><input id="Text" maxlength="6" name="codec3" onchange="truecoloronchange(this.value);" onfocus="h();idchanger('color3')" onkeyup="truecolorkeyup(this.value);" size="6" type="text" value=""><input id="hidden3" type="hidden">&nbsp;</td>
+
+											<td>
+												<div class="colorhover1" id="color3" onclick="changepos(203,465);s();idchanger('color3')" onmouseout="this.style.borderColor='blue'" onmouseover="this.style.borderColor='red'">
+												</div>
+											</td>
+										</tr>
+
+
+										<tr class="paddings">
+											<td align="right"><label for="URL">URL&nbsp;&nbsp;&nbsp;#</label>
+											</td>
+
+											<td><input id="URL" maxlength="6" name="codec4" onchange="truecoloronchange(this.value);" onfocus="h();idchanger('color4')" onkeyup="truecolorkeyup(this.value);" size="6" type="text" value=""><input id="hidden4" type="hidden">&nbsp;</td>
+
+											<td>
+												<div class="colorhover1" id="color4" onclick="changepos(203,487);s();idchanger('color4')" onmouseout="this.style.borderColor='blue'" onmouseover="this.style.borderColor='red'">
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+
+							<tr>
+								<td>
+									<h3>Pallete</h3>
+									<span id="single" style="position:absolute"><select name="pallete" onchange="palletechanger(this.value);codechanger()">
+										<optgroup label="Default Pallete">
+											<option selected="selected" value="Default Google pallete">
+												Default Google pallete
+											</option>
+										</optgroup>
+
+										<optgroup label="AdSense Pallete">
+											<option value="Open Air">
+												Open Air
+											</option>
+
+											<option value="Seaside">
+												Seaside
+											</option>
+
+											<option value="Shadow">
+												Shadow
+											</option>
+
+											<option value="Blue Mix">
+												Blue Mix
+											</option>
+
+											<option value="Ink">
+												Ink
+											</option>
+
+											<option value="Graphite">
+												Graphite
+											</option>
+										</optgroup>
+
+										<optgroup label="Multiple Palletes">
+											<option value="multi">
+												Use multiple palletes...
+											</option>
+										</optgroup>
+									</select></span> <span id="multiple" style="position:absolute; visibility:hidden"><select multiple name="pallete" onchange="palletechanger(this.value);codechanger()" size="8">
+										<optgroup label="AdSense Pallete">
+											<option selected value="Open Air">
+												Open Air
+											</option>
+
+											<option value="Seaside">
+												Seaside
+											</option>
+
+											<option value="Shadow">
+												Shadow
+											</option>
+
+											<option value="Blue Mix">
+												Blue Mix
+											</option>
+
+											<option value="Ink">
+												Ink
+											</option>
+
+											<option value="Graphite">
+												Graphite
+											</option>
+										</optgroup>
+									</select><br>
+									<a href="#" onclick="backtosingle()">Back to single selection</a></span>
+								</td>
+							</tr>
+						</table>
+					</td>
+
+					<td>
+						<table border="0" cellpadding="0" cellspacing="0">
+							<tr>
+								<td>
+									<table border="0" cellpadding="0" cellspacing="0">
+										<tr>
+											<td>
+												<h3>Corner style</h3>
+											</td>
+
+											<td style="padding-left:20px">
+												<h3>Client number</h3>
+											</td>
+										</tr>
+
+
+										<tr>
+											<td valign="top"><select id="corner_style" name="cornerStyle" onchange="codechanger()">
+												<option selected="selected" value="">
+													Select corner style
+												</option>
+
+												<option value="0">
+													Square corners
+												</option>
+
+												<option value="6">
+													Slightly rounded corners
+												</option>
+
+												<option value="10">
+													Very rounded corners
+												</option>
+											</select>
+											</td>
+
+											<td style="padding-left:20px" valign="top"><input id="client" maxlength="16" name="_client_" onchange="check()" onfocus="this.select()" size="16" type="text" value=""><input id="hidden6" type="hidden" value=""> <input name="mysubmit" type="submit" value="save number"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+
+							<tr>
+								<td>
+									<h3>More options</h3>
+									<input checked id="public" name="more" onclick="g('urlget').style.display = 'none'; g('colorget').style.display = 'none'; codechanger()" type="radio" value=""><label for="public">Show public service ads</label><br>
+									<input id="url" name="more" onclick="g('urlget').style.display = 'block'; g('colorget').style.display = 'none';codechanger()" type="radio" value="urladdress"><label for="url">Show non-Google ads from another URL</label><br>
+									<span id="urlget" style="display:none"><input id="geturl" maxlength="150" name="get_url" onchange="codechanger()" onkeyup="codechanger()" size="35" type="text" value="http://"></span> <input id="color" name="more" onclick="g('urlget').style.display = 'none'; g('colorget').style.display = 'block'; codechanger()" type="radio" value="colors"><label for="color">Fill space with a solid color</label><br>
+									<span id="colorget" style="display:none"></span>
+
+									<table>
+										<tr>
+											<td><label for="getcolor">#&nbsp;</label><input id="codec5" maxlength="6" onchange="truecoloronchange(this.value);" onfocus="h();idchanger('color5')" onkeyup="truecolorkeyup(this.value);" size="6" type="text" value="0000FF"><input id="hidden5" type="hidden">
+											</td>
+
+											<td>
+												<div class="colorhover1" id="color5" onclick="changepos(418,304);s();idchanger('color5')" onmouseout="this.style.borderColor='blue'" onmouseover="this.style.borderColor='red'" style="background-color:#0000FF">
+												</div>
+											</td>
+										</tr>
+									</table>
+
+
+									<h3>Notepad (for your own convenience)</h3>
+									<input id="notebook" style="width:100%; height:70px" type="text"><input name="mysubmit" type="submit" value="save notepad">
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	<span class="colors" id="colordiv"></span>
+
+	<table border="0" cellpadding="0" cellspacing="2">
+		<tr>
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#FFFFCC'; valuechanger('FFFFCC'); this.style.borderColor='red'" style="background-color: #FFFFCC">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#FFFF66'; valuechanger('FFFF66'); this.style.borderColor='red'" style="background-color: #FFFF66">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#FFCC66'; valuechanger('FFCC66'); this.style.borderColor='red'" style="background-color: #FFCC66">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#F2984C'; valuechanger('F2984C'); this.style.borderColor='red'" style="background-color: #F2984C">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#E1771E'; valuechanger('E1771E'); this.style.borderColor='red'" style="background-color: #E1771E">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#B47B10'; valuechanger('B47B10'); this.style.borderColor='red'" style="background-color: #B47B10">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#A9501B'; valuechanger('A9501B'); this.style.borderColor='red'" style="background-color: #A9501B">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#6F3C1B'; valuechanger('6F3C1B'); this.style.borderColor='red'" style="background-color: #6F3C1B">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#804000'; valuechanger('804000'); this.style.borderColor='red'" style="background-color: #804000">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#CC0000'; valuechanger('CC0000'); this.style.borderColor='red'" style="background-color: #CC0000">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#940F04'; valuechanger('940F04'); this.style.borderColor='red'" style="background-color: #940F04">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#660000'; valuechanger('660000'); this.style.borderColor='red'" style="background-color: #660000">
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#C3D9FF'; valuechanger('C3D9FF'); this.style.borderColor='red'" style="background-color: #C3D9FF">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#99C9FF'; valuechanger('99C9FF'); this.style.borderColor='red'" style="background-color: #99C9FF">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#66B5FF'; valuechanger('66B5FF'); this.style.borderColor='red'" style="background-color: #66B5FF">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#3D81EE'; valuechanger('3D81EE'); this.style.borderColor='red'" style="background-color: #3D81EE">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#0066CC'; valuechanger('0066CC'); this.style.borderColor='red'" style="background-color: #0066CC">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#6C82B5'; valuechanger('6C82B5'); this.style.borderColor='red'" style="background-color: #6C82B5">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#32527A'; valuechanger('32527A'); this.style.borderColor='red'" style="background-color: #32527A">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#2D6E89'; valuechanger('2D6E89'); this.style.borderColor='red'" style="background-color: #2D6E89">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#006699'; valuechanger('006699'); this.style.borderColor='red'" style="background-color: #006699">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#215670'; valuechanger('215670'); this.style.borderColor='red'" style="background-color: #215670">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#003366'; valuechanger('003366'); this.style.borderColor='red'" style="background-color: #003366">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#000033'; valuechanger('000033'); this.style.borderColor='red'" style="background-color: #000033">
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#CAF99B'; valuechanger('CAF99B'); this.style.borderColor='red'" style="background-color: #CAF99B">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#80FF00'; valuechanger('80FF00'); this.style.borderColor='red'" style="background-color: #80FF00">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#00FF80'; valuechanger('00FF80'); this.style.borderColor='red'" style="background-color: #00FF80">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#78B749'; valuechanger('78B749'); this.style.borderColor='red'" style="background-color: #78B749">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#2BA94F'; valuechanger('2BA94F'); this.style.borderColor='red'" style="background-color: #2BA94F">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#38B63C'; valuechanger('38B63C'); this.style.borderColor='red'" style="background-color: #38B63C">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#0D8F63'; valuechanger('0D8F63'); this.style.borderColor='red'" style="background-color: #0D8F63">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#2D8930'; valuechanger('2D8930'); this.style.borderColor='red'" style="background-color: #2D8930">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#1B703A'; valuechanger('1B703A'); this.style.borderColor='red'" style="background-color: #1B703A">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#11593C'; valuechanger('11593C'); this.style.borderColor='red'" style="background-color: #11593C">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#063E3F'; valuechanger('063E3F'); this.style.borderColor='red'" style="background-color: #063E3F">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#002E3F'; valuechanger('002E3F'); this.style.borderColor='red'" style="background-color: #002E3F">
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#FFBBE8'; valuechanger('FFBBE8'); this.style.borderColor='red'" style="background-color: #FFBBE8">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#E895CC'; valuechanger('E895CC'); this.style.borderColor='red'" style="background-color: #E895CC">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#FF6FCF'; valuechanger('FF6FCF'); this.style.borderColor='red'" style="background-color: #FF6FCF">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#C94093'; valuechanger('C94093'); this.style.borderColor='red'" style="background-color: #C94093">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#9D1961'; valuechanger('9D1961'); this.style.borderColor='red'" style="background-color: #9D1961">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#800040'; valuechanger('800040'); this.style.borderColor='red'" style="background-color: #800040">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#800080'; valuechanger('800080'); this.style.borderColor='red'" style="background-color: #800080">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#72179D'; valuechanger('72179D'); this.style.borderColor='red'" style="background-color: #72179D">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#6728B2'; valuechanger('6728B2'); this.style.borderColor='red'" style="background-color: #6728B2">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#6131BD'; valuechanger('6131BD'); this.style.borderColor='red'" style="background-color: #6131BD">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#341473'; valuechanger('341473'); this.style.borderColor='red'" style="background-color: #341473">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#400058'; valuechanger('400058'); this.style.borderColor='red'" style="background-color: #400058">
+			</td>
+		</tr>
+
+
+		<tr>
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#FFFFFF'; valuechanger('FFFFFF'); this.style.borderColor='red'" style="background-color: #FFFFFF">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#E6E6E6'; valuechanger('E6E6E6'); this.style.borderColor='red'" style="background-color: #E6E6E6">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#CCCCCC'; valuechanger('CCCCCC'); this.style.borderColor='red'" style="background-color: #CCCCCC">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#B3B3B3'; valuechanger('B3B3B3'); this.style.borderColor='red'" style="background-color: #B3B3B3">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#999999'; valuechanger('999999'); this.style.borderColor='red'" style="background-color: #999999">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#808080'; valuechanger('808080'); this.style.borderColor='red'" style="background-color: #808080">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#7F7F7F'; valuechanger('7F7F7F'); this.style.borderColor='red'" style="background-color: #7F7F7F">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#666666'; valuechanger('666666'); this.style.borderColor='red'" style="background-color: #666666">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#4C4C4C'; valuechanger('4C4C4C'); this.style.borderColor='red'" style="background-color: #4C4C4C">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#333333'; valuechanger('333333'); this.style.borderColor='red'" style="background-color: #333333">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#191919'; valuechanger('191919'); this.style.borderColor='red'" style="background-color: #191919">
+			</td>
+
+			<td class="hw" onmousedown="h();codechanger()" onmouseout="this.style.borderColor='blue'" onmouseover="document.getElementById(get_id()).style.backgroundColor='#000000'; valuechanger('000000'); this.style.borderColor='red'" style="background-color: #000000">
+			</td>
+		</tr>
+	</table>
+	<br>
+
+
+	<center>
+		Developed by ..
+	</center>
+
+</body>
+</html>
